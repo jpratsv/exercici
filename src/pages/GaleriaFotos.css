@@ -1,0 +1,11 @@
+.Graella {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+
+}
+img {
+    width: 30%;
+    
+}
