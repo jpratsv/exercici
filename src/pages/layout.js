@@ -1,4 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
+import llista from "./llista";
 
 
 export default function Layout() {
@@ -12,15 +13,12 @@ export default function Layout() {
             <li>
                 <Link to="/">Home</Link>
             </li>
-            <li>
-                <Link to="/comptador">Comptador</Link>
-            </li>
-            <li>
-                <Link to="/acordeon">Acordeon</Link>
-            </li>
-            <li>
-                <Link to="/galeriafotos">GaleriaFotos</Link>
-            </li>
+               
+            {llista.map((item) => (
+              <li>
+                  <Link to={item.path}>{item.titol}</Link>
+              </li>
+            ))}
           </ul>
         </nav>
         <aside class="HolyGrail-ads">…</aside>
