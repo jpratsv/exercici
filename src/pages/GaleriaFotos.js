@@ -22,38 +22,43 @@ export default function GaleriaFotos() {
   }
   return (
     <>
-      <body class="Galeria">
-        <div class="general">
+      <body className="Galeria">
+        <div className="general">
           <header>
             <h1>Práctica Galeria de fotografias</h1>
           </header>
-          <main class="detalle">
-            <img
+          <div className="detalle">
+            <img 
+              className="visualiza"
               onClick={() => visualiza(1)}
               src={process.env.PUBLIC_URL + "/img/1.jpg"}
               alt="Imagen 1"
             ></img>
             <img
+              className="visualiza"
               onClick={() => visualiza(2)}
               src={process.env.PUBLIC_URL + "/img/2.jpg"}
               alt="Imagen 2"
             ></img>
             <img
+              className="visualiza"
               onClick={() => visualiza(3)}
               src={process.env.PUBLIC_URL + "/img/3.jpg"}
               alt="Imagen 3"
             ></img>
             <img
+              className="visualiza"
               onClick={() => visualiza(4)}
               src={process.env.PUBLIC_URL + "/img/4.jpg"}
               alt="Imagen 4"
             ></img>
             <img
+              className="visualiza"
               onClick={() => visualiza(5)}
               src={process.env.PUBLIC_URL + "/img/5.jpg"}
               alt="Imagen 5"
             ></img>
-          </main>
+          </div>
         </div>
       </body>
 
