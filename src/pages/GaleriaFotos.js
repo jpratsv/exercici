@@ -61,10 +61,6 @@ export default function GaleriaFotos() {
           </div>
         </div>
       </body>
-
-      <footer>
-        <p>Final</p>
-      </footer>
     </>
   );
 }
