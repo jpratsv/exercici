@@ -5,6 +5,7 @@ import ToggleButton from './ToggleButton';
 import DisplayCalculadora from './DisplayCalculadora'
 import Menu from './Menu'
 import EntraArray from './EntraArray'
+import AfegirElement from './AfegirElement'
 
 const llista = [
 {path: 'galeriaFotos', titol:'Galeria de Fotos', element: <GaleriaFotos/>},
@@ -14,6 +15,7 @@ const llista = [
 {path: 'calculadora', titol:'Displaya Calculadora', element: <DisplayCalculadora/>},
 {path: 'menu', titol:'Garaje', element: <Menu/>},
 {path: 'entraArray', titol:'Exercici-1 ', element: <EntraArray/>},
+{path: 'AfegirElement', titol:'Exercici-2 ', element: <AfegirElement/>},
 
 ];
 export default llista;
