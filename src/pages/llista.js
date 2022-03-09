@@ -7,6 +7,7 @@ import Menu from "./Menu";
 import EntraArray from "./EntraArray";
 import AfegirElement from "./AfegirElement";
 import EjercicioTres from "./EjercicioTres";
+import EjercicioCuatro from "./EjercicioCuatro";
 
 const llista = [
   {
@@ -26,5 +27,10 @@ const llista = [
   { path: "entraArray", titol: "Exercici-1 ", element: <EntraArray /> },
   { path: "AfegirElement", titol: "Exercici-2 ", element: <AfegirElement /> },
   { path: "EjercicioTres", titol: "Exercici-3 ", element: <EjercicioTres /> },
+  {
+    path: "EjercicioCuatro",
+    titol: "Exercici-4 ",
+    element: <EjercicioCuatro />,
+  },
 ];
 export default llista;
