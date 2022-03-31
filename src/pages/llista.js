@@ -8,6 +8,7 @@ import EntraArray from "./EntraArray";
 import AfegirElement from "./AfegirElement";
 import EjercicioTres from "./EjercicioTres";
 import EjercicioCuatro from "./EjercicioCuatro";
+import Clocks from "./Clocks";
 
 const llista = [
   {
@@ -32,5 +33,6 @@ const llista = [
     titol: "Exercici-4 ",
     element: <EjercicioCuatro />,
   },
+  { path: "Clocks", titol: "Reloj Analógico/Digital ", element: <Clocks /> },
 ];
 export default llista;

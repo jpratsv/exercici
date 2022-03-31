@@ -2,8 +2,9 @@
 // 2.En clicar un foto, mostrar-la en pantalla completa (avançat)
 // 3.En clicar la foto ampliada, mostrar la graella un altre cop
 
+import React, { useState } from "react";
+
 import "./GaleriaFotos.css";
-import { useState } from "react";
 
 export default function GaleriaFotos() {
   const [indexFotoActual, setIndexFotoActual] = useState(0);
@@ -28,7 +29,7 @@ export default function GaleriaFotos() {
             <h1>Práctica Galeria de fotografias</h1>
           </header>
           <div className="detalle">
-            <img 
+            <img
               className="visualiza"
               onClick={() => visualiza(1)}
               src={process.env.PUBLIC_URL + "/img/1.jpg"}
