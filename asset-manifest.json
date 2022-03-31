@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/exercici/static/css/main.f7df2bc7.css",
+    "main.js": "/exercici/static/js/main.f4f5a596.js",
+    "static/js/787.1031ca89.chunk.js": "/exercici/static/js/787.1031ca89.chunk.js",
+    "static/media/gis.jpg": "/exercici/static/media/gis.4891db0843cad065be82.jpg",
+    "index.html": "/exercici/index.html",
+    "main.f7df2bc7.css.map": "/exercici/static/css/main.f7df2bc7.css.map",
+    "main.f4f5a596.js.map": "/exercici/static/js/main.f4f5a596.js.map",
+    "787.1031ca89.chunk.js.map": "/exercici/static/js/787.1031ca89.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7df2bc7.css",
+    "static/js/main.f4f5a596.js"
+  ]
+}
